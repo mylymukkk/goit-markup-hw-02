@@ -125,6 +125,7 @@ body {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 }
 
 .hero-btn:hover,
@@ -218,4 +219,57 @@ body {
 .footer-item-link:hover,
 .footer-item-link:focus {
   color: var(--accent-color);
+}
+
+/* ----------------------------------------------PORTFOlIO-------------------------- */
+
+.portfolio {
+  background-color: var(--first-background-color);
+}
+
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+
+  color: var(--first-btn-color);
+  background-color: var(--btn-background-color);
+  border-radius: 4px;
+  border: none;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus,
+.current-btn {
+  color: var(--second-btn-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-item-img {
+  background: var(--first-background-color);
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.portfolio-link {
+  color: currentColor;
+}
+
+.portfolio-img-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-color);
+}
+
+.portfolio-img-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
